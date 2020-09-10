@@ -8,9 +8,9 @@ end
 
 def long_planeteer_calls(callsarray)
   if callsarray.any? { |word| word.length > 4 }
-    return 
+  true
 else
-  
+false
 end
 end
 
