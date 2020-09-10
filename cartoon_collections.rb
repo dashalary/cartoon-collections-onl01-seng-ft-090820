@@ -18,7 +18,7 @@ def find_the_cheese(stringarray)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese = []
   if stringarray.any? { |cheese| ["cheddar", "gouda", "camembert"].include?(cheese) }
-    return cheese << "#{cheese}"
+    return cheese
   else 
     return nil
 end
