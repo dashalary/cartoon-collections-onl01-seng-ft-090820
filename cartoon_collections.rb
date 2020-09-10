@@ -7,7 +7,7 @@ def summon_captain_planet(planeteerarray)
 end
 
 def long_planeteer_calls(callsarray)
-  if callsarray.any? {
+  if callsarray.any? { |word| word.length >
     return 
 else
   
