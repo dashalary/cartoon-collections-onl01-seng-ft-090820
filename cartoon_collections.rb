@@ -19,7 +19,7 @@ def find_the_cheese(stringarray)
   cheesearr = []
   if stringarray.include?("cheddar") || stringarray.include?("gouda") || stringarray.include?("camembert")
     return stringarray.first
-    end
+    
   else 
     return nil
 end
