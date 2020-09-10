@@ -7,7 +7,7 @@ def summon_captain_planet(planeteerarray)
 end
 
 def long_planeteer_calls(callsarray)
-  if callsarray.include? 
+  if callsarray.include?(calls)
     
 else
   
